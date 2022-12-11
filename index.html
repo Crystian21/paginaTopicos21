@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web KevinCC </title>
+    <link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Novedades</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>¿De regreso al estudio?</h1>
+            <h2>Hazlo con BEATS</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">BEATS SOLO3
+                WIRELESS</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/beats-negros.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Diseño que inspira libertad</h3>
+                    <p>
+
+                        Con un diseño estilizado, elegante y plegable, además de la configuración perfecta del chip W1 diseñado por Apple, estos audífonos son suficientemente duraderos y portátiles para seguirte el ritmo a dondequiera que vayas.</p>
+                    <h3><span>2</span>Hasta 40 horas de audio</h3>
+                    <p>La duración de la batería los convierte en audífonos perfectos para usar todos los días y las almohadillas acolchadas permiten usarlos por muchas horas.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">NOVEDADES</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/chicaros.jpg" alt="">
+                        
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Jamon2.jpg" alt="">
+                       
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/jamon3.jpg" alt="">
+                        
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/jamon4.jpg" alt="">
+                        
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/jamon5.jpg" alt="">
+                        
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/jamon6.jpg" alt="">
+                        
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/jamon7.jpg" alt="">
+                        
+                           
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/jamon8.jpg" alt="">
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/pizza1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>ANONIMO</h4>
+                        <p>DE LOS MEJORES AUDIFONOS DEL MERCADO, ME ENCANTAN!!!!!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pizza2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>EDUARDO</h4>
+                        <p>EXCELENTES! LOS RECOMIENDO DEMASIADO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/pizza31.jpg" alt="">
+                        <h3>Soporte Tecnico</h3>
+                        <p> NUMEROS INTERNACIONALES, SERVICIO, GARANTIA Y AYUDA
+                            
+                        </p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/pizza4.jpg" alt="">
+                        <h3>Acerca de nosotros</h3>
+                        <p>ACERCA DE, IMPRENTA, MARCA COMERCIAL Y UBICACION</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/pizza5.jpg" alt="">
+                        <h3>Aviso Legal</h3>
+                        <p>TERMINOS DE USO, CONDICIONES DE PROMOCION, Y COOKIES</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>6629482630</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>Kevin_cc00@outlook.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Morelia, Michoacán, MX</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Kevin y Crystian | Programación Web</h2>
+    </footer>
+
+    <?php
+     include_once("conexion.php");
+     Cconexion::ConexionBD();
+    ?>
+</body>
+
+</html>
